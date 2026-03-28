@@ -27,11 +27,26 @@
   margin: 0 20px;
 }
 
+.resultbox-win {
+  border: 2px solid rgba(255, 215, 0, 0.6);
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.35);
+}
+
+.resultbox-lose {
+  border: 2px solid rgba(255, 255, 255, 0.25);
+}
+
 .text {
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
   line-height: 1.2;
+}
+
+.summary {
+  margin: 0 0 24px;
+  font-size: 16px;
+  line-height: 1.4;
 }
 
 .btn {

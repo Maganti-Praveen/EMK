@@ -36,6 +36,16 @@
   transition: 0.3s ease;
 }
 
+.answer-option:focus-visible {
+  outline: 3px solid #ffe600;
+  outline-offset: 2px;
+}
+
+.answer-option:disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
 .answer-option:hover {
   background-color: #ffe600;
   color: #000;
